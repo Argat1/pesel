@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-
+       
             
     
 
@@ -26,10 +26,6 @@
 
 
         }
-
-        string peselDefault = "00000000000";
-
-
 
         public static void CheckSex(string pesel)
         {
@@ -55,6 +51,13 @@
 
         public static bool ControlNumberCheck(string pesel)
         {
+            /******************************
+        * nazwa funkcji:          ControlNumberCheck
+        * opis fukncji:           funkcja sprawdza numer pesel i zwarac dane o nim
+        * parametry:              pesel
+        * zwracany typ i opis:    typ bool
+        * autor:                  Łukasz Jabłoński
+        *********************************/
             string firstTenLetters = string.Empty;
             string lastLetter = string.Empty;
 
